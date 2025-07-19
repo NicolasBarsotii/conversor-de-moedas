@@ -1,0 +1,39 @@
+@media (min-width: 720px) {
+    .converter {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    form {
+        flex: 1;
+    }
+
+    #result {
+        flex: 1;
+        font-size: 2rem;
+        text-align: right;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 719px) {
+    .container {
+        padding: 15px;
+    }
+
+    .converter {
+        padding: 20px;
+    }
+
+    input[type="number"],
+    select,
+    button {
+        font-size: 0.95rem;
+    }
+
+    #result {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
